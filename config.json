@@ -1,0 +1,21 @@
+{
+  "useHttps": false,
+  "modbus": {
+    "ip": "192.168.130.210",
+    "unitIds": [
+      "0x13",
+      "0x23",
+      "0x27",
+      "0x31",
+      "0x32",
+      "0x33",
+      "0x34",
+      "0x36",
+      "0x99"
+    ],
+    "port": 502,
+    "address": "0x4000",
+    "quantity": "0x0002"
+  },
+  "host": { "ip": "localhost", "apiPort": 81, "port": 3000 }
+}
